@@ -1,6 +1,6 @@
 <div align="center">
 
-# Kainã Oroque
+# Kainã Roque
 
 ### Network Analyst | Enterprise Networking • Security • Automation
 
