@@ -1,48 +1,42 @@
-[BANNER]
+![Kainã Roque — Network Analyst & Network Automation](assets/header.svg)
 
-I work on enterprise campus networks in multi-site corporate environments —
-switching, wireless, network access control, network security and network services.
+I build practical automation for network operations — collecting device data,
+turning CLI output into structured information, and using it for **auditing,
+inventory and anomaly detection**.
 
-My approach to automation is read-only first:
-I automate collection and analysis before I automate change.
+I work as a **Network Analyst** in enterprise environments, so the projects here
+are shaped by real operational needs across switching, wireless, network access
+control, security and network services.
 
-[Cisco] [Aruba AOS-CX] [ClearPass] [Python]
-
----
-
-## What I work on
-
-| Area | Scope & platforms |
-| --- | --- |
-| Routing & switching | Campus LAN operations, implementation support and troubleshooting — Cisco, Aruba AOS-CX |
-| Wireless | Corporate Wi-Fi deployment support, RF and client-side troubleshooting — Aruba, Aruba Central |
-| Network access control | 802.1X and MAB authentication, roles and dynamic VLAN assignment — Aruba ClearPass |
-| Network security & secure access | Firewall, connectivity and secure-access troubleshooting — Palo Alto, FortiGate, Zscaler |
-| Network services | DNS, DHCP and IPAM operations — Infoblox |
-| Troubleshooting | L1–L3 connectivity analysis, interface / neighbor / topology investigation and incident triage |
+> **Read-only first:** I automate collection and analysis before I automate change.
 
 ---
 
-## Automation
+## What I build
 
-Moving network operations from manual CLI work to repeatable, auditable tooling.
+| Area | What I do |
+| :--- | :--- |
+| **Network data collection** | Automated SSH/CLI collection from network devices using Python and Netmiko |
+| **Parsing & normalization** | Transforming unstructured CLI output into structured data for analysis |
+| **Network auditing** | Validating configurations against technical baselines and operational rules |
+| **Inventory & topology** | Building structured views of interfaces, VLANs, LAGs and network neighbors |
+| **Anomaly detection** | Identifying configuration inconsistencies and unexpected network states |
+| **Network APIs** | Evolving CLI-based workflows toward REST APIs and structured network data |
 
-[DIAGRAMA]
-
-- Python + Netmiko — SSH collection of read-only commands from network devices
-- Output parsing — turning unstructured CLI output into structured data
-- Git — version control for scripts and sanitized examples
-
----
-
-## Currently
-
-- Studying for the Cisco CCNA to consolidate routing and switching fundamentals
-- Extending my AOS-CX collector toward configuration drift detection
-- Exploring REST APIs and structured network data models for network automation
-
----
-
-## Contact
-
-LinkedIn · São Paulo, Brazil
+```text
+ network devices
+      │
+      │ SSH / API
+      ▼
+  collection
+      │
+      ▼
+    parsing
+      │
+      ▼
+ structured data
+      │
+      ├──────────▶ inventory
+      ├──────────▶ audit
+      ├──────────▶ topology
+      └──────────▶ anomaly detection
