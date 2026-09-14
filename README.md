@@ -1,7 +1,5 @@
 <div align="center">
 
-# Kainã Roque
-
 ### Network Analyst · Network Automation · Python
 
 **Enterprise Networking · Security · Infrastructure**
