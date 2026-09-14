@@ -8,7 +8,7 @@
 
 <br>
 
-Building practical automation for **network operations, auditing and troubleshooting**.
+Building practical automation for network operations, auditing and troubleshooting.
 
 <br>
 
@@ -19,87 +19,61 @@ Building practical automation for **network operations, auditing and troubleshoo
 
 </div>
 
-<br>
+---
 
-> **Read-only first.**  
-> I automate collection and analysis before I automate change.
+## About
+
+I'm a **Network Analyst** working with enterprise networking environments and developing automation for real operational needs.
+
+My main interests are **network data collection, auditing, troubleshooting and structured analysis** using Python and network automation tools.
+
+> **Read-only first:** I automate collection and analysis before I automate change.
 
 ---
 
-## What I Build
+## Automation & Development
 
-<table>
-<tr>
+`Python` · `Netmiko` · `Git` · `SSH` · `REST APIs` · `JSON` · `CSV`
 
-<td width="50%" valign="top">
+I currently work on automation around:
 
-### `01` · Network Collection
-
-Automating the retrieval of operational data from network devices through **SSH, CLI and APIs**.
-
-`Python` `Netmiko` `SSH`
-
-</td>
-
-<td width="50%" valign="top">
-
-### `02` · Parsing & Data
-
-Transforming raw device output into **structured, reusable network data**.
-
-`CLI Output` → `JSON / CSV`
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="50%" valign="top">
-
-### `03` · Network Auditing
-
-Validating network state against **technical baselines and operational rules**.
-
-`Baseline Validation` `Configuration Analysis`
-
-</td>
-
-<td width="50%" valign="top">
-
-### `04` · Inventory & Analysis
-
-Building structured views of network infrastructure and identifying inconsistencies.
-
-`Interfaces` `VLANs` `LAGs` `Neighbors` `Topology`
-
-</td>
-
-</tr>
-</table>
+- Network device data collection
+- CLI parsing and structured data
+- Network inventory
+- Configuration auditing
+- Baseline validation
+- Anomaly detection
 
 ---
 
-## Automation Flow
+## Network Background
 
-```text
-             Network Devices
-                   │
-             SSH / CLI / API
-                   │
-                   ▼
-               Collection
-                   │
-                   ▼
-                Parsing
-                   │
-                   ▼
-            Structured Data
-                   │
-          ┌────────┼────────┐
-          │        │        │
-          ▼        ▼        ▼
-      Inventory  Auditing  Analysis
-                            │
-                            ▼
-                     Anomaly Detection
+**Networking**  
+`Cisco` · `Aruba AOS-CX` · `Aruba Central` · `Routing & Switching`
+
+**Access & Security**  
+`Aruba ClearPass` · `Palo Alto` · `FortiGate` · `Zscaler`
+
+**Network Services**  
+`Infoblox` · `DNS` · `DHCP` · `IPAM`
+
+---
+
+## Currently
+
+- Preparing for the **Cisco CCNA**
+- Expanding my **Python-based network automation** skills
+- Exploring **REST APIs and structured network data**
+- Improving network auditing and troubleshooting workflows
+
+---
+
+## Connect
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Kainã_Roque-0D1117?style=for-the-badge&logo=linkedin&logoColor=58A6FF)](https://www.linkedin.com/in/kaina-roque)
+
+São Paulo, Brazil
+
+</div>
