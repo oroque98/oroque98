@@ -72,7 +72,7 @@ I currently work on automation around:
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Kainã_Roque-0D1117?style=for-the-badge&logo=linkedin&logoColor=58A6FF)](https://www.linkedin.com/in/kaina-roque)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Kainã_Roque-0D1117?style=for-the-badge&logo=linkedin&logoColor=58A6FF)](https://www.linkedin.com/in/kainã-roque-23a4a418b/)
 
 São Paulo, Brazil
 
