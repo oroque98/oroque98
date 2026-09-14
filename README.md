@@ -8,26 +8,21 @@
 
 <br>
 
-Turning network operations into **repeatable, auditable tooling**.
+Building practical automation for **network operations, auditing and troubleshooting**.
 
 <br>
 
 ![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=58A6FF)
-![Netmiko](https://img.shields.io/badge/Netmiko-0D1117?style=for-the-badge&logoColor=58A6FF)
+![Netmiko](https://img.shields.io/badge/Netmiko-0D1117?style=for-the-badge&logo=python&logoColor=58A6FF)
 ![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=58A6FF)
-![REST APIs](https://img.shields.io/badge/REST_APIs-0D1117?style=for-the-badge&logoColor=58A6FF)
+![REST APIs](https://img.shields.io/badge/REST_APIs-0D1117?style=for-the-badge&logo=openapiinitiative&logoColor=58A6FF)
 
 </div>
 
----
+<br>
 
-## About
-
-I'm a **Network Analyst** working with enterprise networking environments and building automation around real operational needs.
-
-My main interest is turning repetitive network tasks into structured workflows — from device data collection and parsing to inventory, auditing and anomaly detection.
-
-> **Read-only first:** I automate collection and analysis before I automate change.
+> **Read-only first.**  
+> I automate collection and analysis before I automate change.
 
 ---
 
@@ -35,44 +30,38 @@ My main interest is turning repetitive network tasks into structured workflows �
 
 <table>
 <tr>
+
 <td width="50%" valign="top">
 
-### `01` · Collection
+### `01` · Network Collection
 
-Automated retrieval of operational data from network devices.
+Automating the retrieval of operational data from network devices through **SSH, CLI and APIs**.
 
-**Focus:**  
-`SSH` · `CLI` · `APIs`
-
-**Tools:**  
-`Python` · `Netmiko`
+`Python` `Netmiko` `SSH`
 
 </td>
 
 <td width="50%" valign="top">
 
-### `02` · Parsing
+### `02` · Parsing & Data
 
-Transforming raw network output into structured and reusable information.
+Transforming raw device output into **structured, reusable network data**.
 
-**Flow:**  
-`CLI Output → Structured Data`
-
-**Formats:**  
-`JSON` · `CSV`
+`CLI Output` → `JSON / CSV`
 
 </td>
+
 </tr>
 
 <tr>
+
 <td width="50%" valign="top">
 
-### `03` · Auditing
+### `03` · Network Auditing
 
-Validating network state against technical baselines and operational rules.
+Validating network state against **technical baselines and operational rules**.
 
-**Focus:**  
-`Baseline Validation` · `Configuration Analysis`
+`Baseline Validation` `Configuration Analysis`
 
 </td>
 
@@ -82,10 +71,10 @@ Validating network state against technical baselines and operational rules.
 
 Building structured views of network infrastructure and identifying inconsistencies.
 
-**Data:**  
-`Interfaces` · `VLANs` · `LAGs` · `Neighbors` · `Topology`
+`Interfaces` `VLANs` `LAGs` `Neighbors` `Topology`
 
 </td>
+
 </tr>
 </table>
 
@@ -94,22 +83,23 @@ Building structured views of network infrastructure and identifying inconsistenc
 ## Automation Flow
 
 ```text
-        Network Devices
-              │
-        SSH / CLI / API
-              │
-              ▼
-          Collection
-              │
-              ▼
-           Parsing
-              │
-              ▼
-       Structured Data
-              │
-      ┌───────┼────────┐
-      ▼       ▼        ▼
- Inventory  Auditing  Analysis
-                       │
-                       ▼
-                 Anomaly Detection
+             Network Devices
+                   │
+             SSH / CLI / API
+                   │
+                   ▼
+               Collection
+                   │
+                   ▼
+                Parsing
+                   │
+                   ▼
+            Structured Data
+                   │
+          ┌────────┼────────┐
+          │        │        │
+          ▼        ▼        ▼
+      Inventory  Auditing  Analysis
+                            │
+                            ▼
+                     Anomaly Detection
